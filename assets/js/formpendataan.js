@@ -77,8 +77,10 @@ let postDataElement = async () => {
   );
   if (tampung) {
     console.log("input data berhasil");
+    alert("Data Berhasil Tersimpan");
   } else {
     console.log("input tidak berhasil");
+    alert("Data Gagal Tersimpan");
   }
   // window.location.reload(true)
 };
