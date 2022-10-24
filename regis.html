@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/login&regis.css" />
+    <title>Registration Dis-Help</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blueBx">
+        <div class="box signin">
+          <h2>Anda Seorang User ?</h2>
+          <button class="signinBtn">User</button>
+        </div>
+        <div class="box signup">
+          <h2>Sudah Punya Akun ?</h2>
+          <button class="signupBtn" onclick="location.href='login.html'">
+            Login
+          </button>
+        </div>
+      </div>
+      <div class="formBx">
+        <div class="form signinForm">
+          <form action="" id="form">
+            <h3>Registration User</h3>
+            <input type="text" placeholder="Nama" name="username" />
+            <input type="text" placeholder="Email" name="email" />
+            <select name="posisi">
+              <option value="peyandang disabilitas lsm">
+                Peyandang Disabilitas LSM
+              </option>
+              <option value="Peyandang disabilitas non-lsm" selected>
+                Peyandang Disabilitas NON-LSM
+              </option>
+              <option value="Mitra">Mitra</option>
+            </select>
+            <input
+              type="password"
+              placeholder="Password"
+              id="password"
+              name="password"
+            />
+            <input type="submit" value="Create" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/regis.js"></script>
+  </body>
+</html>
