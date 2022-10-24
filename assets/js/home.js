@@ -1,6 +1,10 @@
+let tampungusername = document.getElementById("nama");
+let ambilUsername = localStorage.getItem("Username");
+tampungusername.innerText = ambilUsername;
 async function tampilHome() {
   // let ambilID = localStorage.getItem("ID");
   // let ambildata = JSON.parse(ambilID)
+
   let response = await fetch(
     "https://634cc344f5d2cc648e940bb2.mockapi.io/program",
     {
