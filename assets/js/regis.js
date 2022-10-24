@@ -16,4 +16,5 @@ form.addEventListener("submit", function (e) {
     method: "POST",
     body: payload,
   }).catch((error) => console.log(error.status));
+  window.location.href = "login.html";
 });
